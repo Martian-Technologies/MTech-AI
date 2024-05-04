@@ -1,0 +1,55 @@
+{
+   "partList" : [
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "00ff00",
+         "name" : "AI Brain",
+         "physicsMaterial" : "Mechanical",
+         "renderable" : "$GAME_DATA/Objects/Renderable/Interactive/obj_interactive_logicgate.rend",
+         "rotationSet" : "Default",
+         "scripted" : {
+            "classname" : "AIBrain",
+            "filename" : "$CONTENT_DATA/Scripts/AIBrain.lua"
+         },
+         "uuid" : "75a83b31-55f5-4a72-a9b0-fdbacb0db370"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "FFFFFF",
+         "name" : "AI Trainer",
+         "physicsMaterial" : "Mechanical",
+         "renderable" : "$GAME_DATA/Objects/Renderable/Interactive/obj_interactive_logicgate.rend",
+         "rotationSet" : "Default",
+         "scripted" : {
+            "classname" : "AITrainer",
+            "filename" : "$CONTENT_DATA/Scripts/AITrainer.lua"
+         },
+         "uuid" : "7fecee07-5d3a-42cc-8fff-d34bf2574c7b"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "bbbbbb",
+         "name" : "Trainable Value",
+         "physicsMaterial" : "Mechanical",
+         "renderable" : "$GAME_DATA/Objects/Renderable/Interactive/obj_interactive_logicgate.rend",
+         "rotationSet" : "Default",
+         "scripted" : {
+            "classname" : "TrainableValue",
+            "filename" : "$CONTENT_DATA/Scripts/TrainableBlocks/TrainableValue.lua"
+         },
+         "uuid" : "7a917f92-062f-4a1b-916f-f2f75bc8ad99"
+      }
+   ]
+}
